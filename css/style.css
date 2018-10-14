@@ -52,3 +52,11 @@ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75
 .navigate-container.navlinks {
     text-align: center;
 }
+
+/* HEADER CTA BUTTONS */
+.header-buttons.cta-btn {
+    text-align: right;
+    padding-right: 10%;
+    position: relative;
+    top: -16px;
+}
