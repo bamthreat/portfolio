@@ -22,9 +22,7 @@ THIS IS A CSS DOCUMENT FOR THE TEMPLATE
 
 body{ margin: 0px; padding: 0px; width: 100%; font-family: 'Open Sans', sans-serif; font-size: 16px;}
 
-/* SMART HEADER */
-
-.smart-header{ width: 100%; padding: 0; margin: 0; background: #818E91; color: #fff; padding-top: 50px; padding-bottom: 50px; }
+/* SOCIAL PROFILE */
 
 .social-profile-container { float: left; display: block; padding-top: 200px; position: fixed; z-index: 2; }
 .social-profile-container a { padding: 20px; display: inherit;}
@@ -36,27 +34,16 @@ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75
 .social-profile-container #pinterest-profile{ background: #c8232c; color: #fff; text-decoration: none; position: relative;}
 .social-profile-container #youtube-profile{ background: #ff0000; color: #fff; text-decoration: none; position: relative;}
 
+/* SMART HEADER */
+.smart-header{ width: 100%; padding: 0; margin: 0 auto; background: #818E91; color: #fff; padding-top: 50px; padding-bottom: 50px; text-align: center;}
 
 /* LOGO */
+.logo-container { width: 30%; text-align: center; display:inline-block; }
 
-.logo-container.logo-align {
-    padding-left: 20%;
-    text-align: left;
-}
-.logo-container.logo-align h4 {
-    position: relative;
-    top: 17px;
-}
 
 /* NAVIGATION LINKS */
-.navigate-container.navlinks {
-    text-align: center;
-}
+.navigate-container{ width: 30%; text-align: center; display:inline-block; }
+
 
 /* HEADER CTA BUTTONS */
-.header-buttons.cta-btn {
-    text-align: right;
-    padding-right: 10%;
-    position: relative;
-    top: -16px;
-}
+.header-cta-container{ width: 30%; text-align: center; display:inline-block; }
