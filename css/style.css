@@ -52,8 +52,8 @@ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75
 .header-buttons a{ text-decoration: none; color: #fff; padding:20px; font-size: 12px; width: 100px; 
 	display: inline-block; background-image: linear-gradient(to right, #14709E 0%, #26a0da 51%, #14709E 100%); }
 
-#contact-us-btn { transition: 0.5s; background-size: 400% auto; display: inline-block;}
-#contact-us-btn:hover { background-position: right center; }
+#contact-us-btn, #our-shop-btn, #call-us-btn { transition: 0.5s; background-size: 400% auto; display: inline-block;}
+#contact-us-btn:hover, #our-shop-btn:hover, #call-us-btn:hover{ background-position: right center; }
 
 /* BODY CONTAINER */
 .body-container{ font-family: 'Open Sans', sans-serif; font-size: 16px;}
