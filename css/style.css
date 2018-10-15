@@ -42,14 +42,15 @@ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75
 
 
 /* NAVIGATION LINKS */
-.navigate-container{ width: 50%; text-align: center; display:inline-block; position: relative; top: -61px;}
+.navigate-container{ width: 40%; text-align: center; display:inline-block; position: relative; top: -61px;}
 .navlinks a{ text-decoration: none; color: #fff; padding-left: 10px; padding-right: 10px;  font-size: 15px; font-family: 'Open Sans', sans-serif;}
 .navlinks a:hover{ border-bottom: solid 5px red; width: 20px; padding-bottom: 15px; transition: 0.6s; }
 
 /* HEADER CTA BUTTONS */
-.header-cta-container{ width: 20%; text-align: center; display:inline-block; position: relative; top: -61px;}
-.header-buttons a{ text-decoration: none; color: #fff; padding-left: 10px; padding-right: 10px; font-size: 12px; }
-
+.header-cta-container{ width: 30%; text-align: center; display:inline-block; position: relative; top: -61px;}
+.header-buttons{}
+.header-buttons a{ text-decoration: none; color: #fff; padding:20px; font-size: 12px; width: 100px; display: inline-block; background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%); }
+.header-buttons a:hover{ background-position: right center;  }
 
 /* BODY CONTAINER */
 .body-container{ font-family: 'Open Sans', sans-serif; font-size: 16px;}
