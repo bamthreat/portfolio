@@ -54,3 +54,10 @@ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75
 
 /* BODY CONTAINER */
 .body-container{ font-family: 'Open Sans', sans-serif; font-size: 16px;}
+
+#contact-us-btn { 
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    display: block;}
+#contact-us-btn:hover { background-position: right center; }
