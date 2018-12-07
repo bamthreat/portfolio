@@ -55,5 +55,32 @@ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75
 #contact-us-btn, #our-shop-btn, #call-us-btn { transition: 0.5s; background-size: 400% auto; display: inline-block;}
 #contact-us-btn:hover, #our-shop-btn:hover, #call-us-btn:hover{ background-position: right center; }
 
+
+/* ABOUT US */
+.about-us.container {
+    background-color: coral;
+    margin: -2px;
+}
+section#left-about-us {
+    width: 90%;
+    margin: 0 auto;
+}
+h4.title.about-us-title {
+    padding-top: 50px;
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-left: 10px;
+}
+section#left-about-us p {
+    text-align: left;
+    line-height: 23px;
+    font-size: 18px;
+    font-weight: 200;
+    width: 50%;
+    padding-bottom: 50px;
+}
+
 /* BODY CONTAINER */
 .body-container{ font-family: 'Open Sans', sans-serif; font-size: 16px;}
